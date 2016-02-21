@@ -1,0 +1,34 @@
+{
+  "name": "nan-async-example",
+  "version": "0.1.0",
+  "description": "node nan async addon example",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "test": "node test/test.js",
+    "install": "node-gyp rebuild"
+  },
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "nan": "^2.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Bacra/node-nan-async-example.git"
+  },
+  "keywords": [
+    "nan",
+    "async",
+    "example"
+  ],
+  "author": "Bacra Woo <bacra.woo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bacra/node-nan-async-example/issues"
+  },
+  "homepage": "https://github.com/Bacra/node-nan-async-example#readme"
+}
