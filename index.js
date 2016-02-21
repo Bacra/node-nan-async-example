@@ -1,2 +1,2 @@
-module.exports = require('bindings')('nanasync');
+module.exports = require('bindings')('async');
 
