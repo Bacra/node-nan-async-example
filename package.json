@@ -5,15 +5,12 @@
   "main": "index.js",
   "gypfile": true,
   "scripts": {
-    "test": "node test/test.js",
+    "test": "node test.js",
     "install": "node-gyp rebuild"
   },
   "dependencies": {
     "bindings": "~1.2.1",
     "nan": "^2.0.0"
-  },
-  "directories": {
-    "test": "test"
   },
   "devDependencies": {},
   "repository": {
