@@ -1,8 +1,8 @@
 var assert = require('assert');
-var async = require('./');
+var NanAsync = require('./');
 var runned = false;
 
-async(function(err, msg)
+NanAsync(function(err, msg)
 {
 	runned = true;
 	assert.equal(msg, 'hello world');
