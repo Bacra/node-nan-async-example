@@ -1,2 +1,11 @@
-build
 node_modules
+test/tmp
+coverage
+npm-debug.log
+package-lock.json
+
+.tags*
+.DS_Store
+.vscode
+
+packages/nan-async-example/build
