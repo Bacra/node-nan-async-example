@@ -1,9 +1,14 @@
 {
   "name": "test-install-error-optional",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "npm install error",
   "main": "index.js",
-  "keywords": ["test", "install", "error", "optinalDependencies"],
+  "keywords": [
+    "test",
+    "install",
+    "error",
+    "optinalDependencies"
+  ],
   "author": "Bacra<bacra.woo@gmail.com>",
   "license": "MIT",
   "optinalDependencies": {
