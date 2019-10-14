@@ -1,0 +1,12 @@
+{
+  "name": "test-install-error",
+  "version": "1.0.0",
+  "description": "npm install error",
+  "main": "index.js",
+  "scripts": {
+    "install": "exit 1"
+  },
+  "keywords": ["test", "install", "error"],
+  "author": "Bacra<bacra.woo@gmail.com>",
+  "license": "MIT"
+}
