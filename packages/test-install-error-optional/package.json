@@ -7,11 +7,11 @@
     "test",
     "install",
     "error",
-    "optinalDependencies"
+    "optionalDependencies"
   ],
   "author": "Bacra<bacra.woo@gmail.com>",
   "license": "MIT",
-  "optinalDependencies": {
+  "optionalDependencies": {
     "test-install-error": "*"
   }
 }
